@@ -1,0 +1,49 @@
+.cocktail-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .cocktail-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cocktail-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .cocktail-card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .cocktail-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.4;
+  }
+
+  .show-details-button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .show-details-button:hover {
+    background-color: #0055a0;
+  }
